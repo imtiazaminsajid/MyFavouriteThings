@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.imtiazaminsajid.myfavouritethings.MainActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.imtiazaminsajid.myfavouritethings.MainActivity">
+
+        <Button
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:id="@+id/movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40fdc8"
+            android:onClick="movie"
+            android:text="movie" />
+        <Button
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="food"
+            android:background="#4e6cff"
+            android:text="Food"/>
+        <Button
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="place"
+            android:background="#ae40fd"
+            android:text="Place"
+
+            />
+        <Button
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="book"
+            android:background="#e2ad44"
+            android:text="Books"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
